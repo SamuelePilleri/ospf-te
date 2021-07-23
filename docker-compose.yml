@@ -1,0 +1,8 @@
+version: '3'
+services:
+    pyomo:
+        build: 
+            context: .
+        volumes:
+            - .:/workdir/workdir
+        command: bash
